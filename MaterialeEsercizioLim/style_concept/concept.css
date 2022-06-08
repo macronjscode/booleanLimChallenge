@@ -1,0 +1,206 @@
+/*IMPORT FONT GOOGLE*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+/*RESET ELEMENT DEFAULT*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{ list-style: none;
+    display: inline;}
+
+h2{margin: 0; font-family: 'Quicksand', sans-serif;}
+p{font-family: 'Quicksand', sans-serif;}
+
+button{
+    padding: 8px;
+    background: linear-gradient(white 60%,rgb(170, 169, 169));
+    border: 0px;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
+button:active{
+    padding: 8px;
+    background: linear-gradient(white 40%,rgb(170, 169, 169));
+    border: 0px;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+/*END RESET ELEMENT DEFAULT*/
+
+/*BODY BACKGROUND COVER*/
+body{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("/img/background.jpg");
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*EXTRA BODY*/
+#special-body-container{
+    background-color: rgba(18, 18, 19, 0.699);
+    width: 63%;
+    height: 80vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*EXTRA HEADER*/
+#special-header-container{
+    /*background-color: rgba(240, 255, 255, 0.144);*/
+    width: 90%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*CONTAINER LOGO SPECIAL HEADER*/
+.sp-header-logo-container{
+    display: flex;
+    width: 20%;
+}
+
+/*LOGO IMG HEADER*/
+.sp-header-logo-container > img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*CONTAINER SLOGAN SPECIAL HEADER*/
+.sp-header-slogan-container{
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff41;
+    font-size: 30px;
+    transition: all 2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+/*SLOGAN ANIMATION JAVASCRIPT DINAMIC CLASS*/
+
+.span{opacity: 0%;}
+
+.slogan-animated-span{
+    transition: all 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    color: #00dd00;
+    opacity: 100%;
+}
+
+/* END SLOGAN ANIMATION JAVASCRIPT DINAMIC CLASS*/
+
+/*CONTAINER MENU SPECIAL HEADER*/
+.sp-header-menu-container{
+    background-color: #00dd00b6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+/*CONTAINER SPECIAL MAIN*/
+#special-main-container{
+    width: 90%;
+    height: 680px;
+}
+
+/*CONTAINER STATUS MAIN NODELIST*/
+.sp_main_container_status{
+    width: 730px;
+    margin-top: 15px;
+    height: 130px;
+}
+
+/* START SECTION MONOPATTINO STATUS*/
+.sp_main_container_status_text_check{display: flex;}
+
+.sp_main_container_status_text_check > input{margin-top: 16px;}
+
+.sp_main_container_status_img_address{display: flex;}
+
+.sp_main_container_status_text_check,
+.sp_main_container_status_img_address,
+.sp_main_container_status_battery_text{
+    margin-top: 5px;
+}
+
+.sp_main_container_status_text_check h2{
+    color: white;
+    font-size: 28px;
+    margin-left: 7px;
+}
+
+.sp_main_container_status_img_address p{
+    color: white;
+    font-size: 18px;
+}
+
+.sp_main_container_status_battery_text h2{
+    color: white;
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+
+.sp_main_container_status_img_address > img{
+    width: 1%;
+    height: 1%;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+/*LOADING BAR - MAIN SPECIAL SECTION*/
+.status-battery-sp-main-container-status-battery-text-One{
+    width: 250px;
+    height: 30px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.status-battery-sp-main-container-status-battery-text-two{
+    width: 420px;
+    height: 30px;
+    background-color: rgb(255, 153, 0);
+    border-radius: 10px;
+}
+
+.status-battery-sp-main-container-status-battery-text-One > h2{
+    text-align: center;
+    padding: 3px;
+}
+
+.status-battery-sp-main-container-status-battery-text-two > h2{
+    text-align: center;
+    padding: 3px;
+}
+
+.status-battery-sp-main-container-status-battery-text-three > h2{
+    text-align: center;
+    padding: 3px;
+}
+
+
+
+.status-battery-sp-main-container-status-battery-text-three{
+    width: 600px;
+    height: 30px;
+    background-color: rgb(0, 255, 34);
+    border-radius: 10px;
+}
+
+/* END SECTION MONOPATTINO STATUS*/
+
